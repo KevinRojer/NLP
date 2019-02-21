@@ -1,1 +1,2 @@
 # NLP
+Natural Language Processing (NLP) is a subfield of Artificial Intelligence which deals with the interactions between computers and language. The technology applies machine learning algorithms to text and speach. For example, we can use NLP to create systems like speech recognition, document summarization, machine translation, spam detection, named entity recognition, question answering, autocomplete, predictive typing, chat bots, and so on.
