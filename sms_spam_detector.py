@@ -4,13 +4,13 @@ from sklearn.ensemble import AdaBoostClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.model_selection import train_test_split
-from wordcloud import wordcloud
+from wordcloud import WordCloud
 
 # load the data
 print("Loading the data...")
 dir_path = '~/Documents/Data/SmsSpam/'
 file = dir_path + 'spam.csv'
-data = pd.read_csv(file)
+data = pd.read_csv(file, encoding='ISO-8859-1')
 
 print(data.head(10))
 
