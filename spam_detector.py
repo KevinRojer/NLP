@@ -10,7 +10,7 @@ file = dir_path + 'spambase.txt'
 data = pd.read_csv(file).values
 
 # Randomly split the data into train and test sets
-np.random.shuffle(data) #inplace shuffle (different everytime)
+np.random.shuffle(data) #inplace shuffle (different every time)
 
 # first 48 columns are relevant features, last column is label
 X = data[:, :48]
