@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 from sklearn.ensemble import AdaBoostClassifier
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.model_selection import train_test_split
+from wordcloud import wordcloud
 
 # load the data
 print("Loading the data...")
