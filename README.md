@@ -7,3 +7,4 @@ Data for this machine learning task is available for download on https://archive
 
 
 ### Sms Spam Detector
+The data for this classification task was obtain trough kaggle: https://www.kaggle.com/uciml/sms-spam-collection-dataset. Two classifiers (Naive-Bayes and AdaBoost) are used and their accuracy are compared.
